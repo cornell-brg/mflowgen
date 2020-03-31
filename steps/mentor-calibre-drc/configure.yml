@@ -36,6 +36,8 @@ commands:
 
 parameters:
   design_name: undefined
+  # Use the rule deck "inputs/adk/${drc_rule_deck}"
+  drc_rule_deck: calibre-drc-block.rule
 
 #-------------------------------------------------------------------------
 # Debug

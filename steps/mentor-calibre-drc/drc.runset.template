@@ -1,4 +1,4 @@
-*drcRulesFile: inputs/adk/calibre-drc-block.rule
+*drcRulesFile: inputs/adk/${drc_rule_deck}
 *drcRunDir: ./
 *drcLayoutPaths: inputs/design_merged.gds
 *drcLayoutPrimary: ${design_name}

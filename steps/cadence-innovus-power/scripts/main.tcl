@@ -7,13 +7,6 @@
 # Date   : January 13, 2020
 
 #-------------------------------------------------------------------------
-# Stdcell power rail preroute
-#-------------------------------------------------------------------------
-# Generate horizontal stdcell preroutes
-
-sroute -nets {VDD VSS}
-
-#-------------------------------------------------------------------------
 # Implement power strategy
 #-------------------------------------------------------------------------
 # Older technologies use a single coarse power mesh, but more advanced
