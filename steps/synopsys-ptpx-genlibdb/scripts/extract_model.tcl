@@ -14,7 +14,6 @@
 
 update_timing -full
 
-extract_model -library_cell -output ${ptpx_design_name} -format {lib db} -block_scope
+extract_model -library_cell -output ${ptpx_design_name}${corners} -format {lib db} -block_scope
 
-file rename -force ${ptpx_design_name}_lib.db ${ptpx_design_name}.db
-
+file rename -force ${ptpx_design_name}${corners}_lib.db ${ptpx_design_name}${corners}.db
