@@ -11,6 +11,7 @@
 *lvsUseHCells: ${lvs_use_hcells}
 *lvsHCellsFile: ${lvs_hcells_file}
 *lvsRecognizeGates: NONE
+*lvsCreateSVDB: ${lvs_create_svdb}
 *lvsERCDatabase: lvs.erc.results
 *lvsERCSummaryFile: lvs.erc.summary
 *lvsReportFile: lvs.report

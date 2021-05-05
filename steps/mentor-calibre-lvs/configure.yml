@@ -78,6 +78,14 @@ parameters:
   # our case) needs a different view b/c it uses LVT cells etc.
   #
   lvs_extra_spice_include: ""
+  #
+  # lvs_create_svdb:
+  #
+  # - [steveri 05/2021] Added lvs_create_svdb to optionally suppres
+  # the occasionally-extremely-large svdb directory creation. Default
+  # is to create the directory, as before (lvs_create_svdb=1).
+  #
+  lvs_create_svdb: 1
 
 #-------------------------------------------------------------------------
 # Debug
