@@ -27,5 +27,5 @@ parameters:
 
 commands: 
   - cp inputs/design.lvs.spice design.lvs.spice
-  - netgen -batch lvs "inputs/design_extracted.spice $design_name" "design.lvs.spice $design_name" inputs/adk/libs.tech/netgen/sky130A_setup.tcl outputs/lvs_results.log
+  - netgen -batch lvs "inputs/design_extracted.spice $design_name" "design.lvs.spice $design_name" inputs/adk/netgen-setup.tcl outputs/lvs_results.log
 
